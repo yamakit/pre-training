@@ -1,0 +1,22 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>サンプル</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="sample.js"></script>
+</head>
+<body>
+    <h2>マウスポインタを動かしてください</h2>
+    <div id="mouse">
+        <script>
+            setInterval('mouse()', 1000);
+        </script>
+    </div>
+</body>
+</html> 
+

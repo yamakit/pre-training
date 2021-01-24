@@ -10,3 +10,4 @@ function mouse(){
   console.log(mY);
   document.getElementById("mouse").innerHTML = "Y座標：" + mY;
 }
+
