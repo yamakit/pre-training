@@ -1,11 +1,19 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <title>サンプル</title>
-  <script src="sample1.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="sample.js"></script>
 </head>
 <body>
+    <div id="count">
+        <button onclick="setInterval('countSecond()',1000)">秒数カウントを開始</button>
+    </div>
+    <div id="mouse">
+        <button onclick="setInterval('mouse()',1000)">y座標を表示</button>
+    </div>
   Y座標：<input type="text" id="txtY" />
 </body>
-</html>
+</html> 
+
