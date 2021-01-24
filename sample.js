@@ -11,3 +11,4 @@ function mouse(){
   document.getElementById("mouse").innerHTML = "Y座標：" + mY;
 }
 
+setInterval('mouse()', 1000);
