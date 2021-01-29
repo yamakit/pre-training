@@ -17,7 +17,7 @@
 
     $sql = "INSERT INTO `coordinate`(`id`, `datetime`, `y_coordinate`) VALUES ('1','2021-01-24 17:00:00','100')";
     $result_flag = mysql_query($sql);
-
+//あああ
     if ($result_flag) {
         echo "成功しました";
     } else {
